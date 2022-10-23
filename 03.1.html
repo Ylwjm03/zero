@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <script src="03.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>一个无聊的网站</title>
+    <link rel="icon" href="06.png" />
+  </head>
+  <body>
+    <body>
+      <div style="background-color: #f1f1f1; text-align: center; padding: 40px">
+        <img
+          src="04.jpeg"
+          alt="高木"
+          width="180px"
+          height="180px"
+          padding:40px;
+          text-align:center
+          style="border-radius: 50%"
+        />
+      </div>
+      <div
+        style="
+          max-width: 100vw;
+          text-align: center;
+          padding: 15px;
+          line-height: 3;
+        "
+      >
+        <h1 style="color: pink">一个无聊的网站</h1>
+        <hr />
+        <hr />
+        <b>比大小</b>
+        <br />
+        第一个数是：<input type="text" id="num1" /><br />
+
+        第二个数是：<input type="text" id="num2" /><br />
+
+        <input type="button" onclick="maxNum()" value="计算" />
+
+        <p>点个赞吧</p>
+        <button id="dzs" onclick="dianzan()">
+          <b>520</b>
+        </button>
+        <script>
+          function dianzan() {
+            let dianzanshubiqian = window.document.getElementById("dzs");
+            let dianzanshu = parseInt(dianzanshubiqian.innerText);
+            let xinshuzi = dianzanshu + 1;
+            dianzanshubiqian.innerText = xinshuzi;
+            return;
+          }
+        </script>
+        <br />
+        <p style="align: right">---XXX作于2022年10月23日</p>
+      </div>
+      <div
+        style="
+          background-color: #f1f1f1;
+          text-align: center;
+          padding: 40px;
+          font-size: 20px;
+        "
+      >
+        <a href="https://space.bilibili.com/73704511?spm_id_from=333.1007.0.0"
+          ><img src="02.jpg" alt="高木" width="50px" height="50px"
+        /></a>
+      </div>
+    </body>
+  </body>
+</html>
